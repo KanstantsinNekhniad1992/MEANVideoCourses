@@ -1,9 +1,10 @@
 doctype html
 html(lang="en")
     head
-        link(rel="stylesheet" href="/css/bootstrap.css")
+        base(href="/")
+        link(rel="stylesheet" href="/css/bootstrap.min.css")
         link(rel="stylesheet" href="/vendor/toastr/toastr.css")
         link(rel="stylesheet" href="/css/site.styl")
-    body
+    body(ng-app="app")
         block main-content
         include scripts
