@@ -1,2 +1,9 @@
-h1 Hello World
-h2 {{myVar}}
+.container
+    .jumbotron
+        h1 MEANVideoCourses
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    .row
+        .col-md-6
+            div(ng-include="'/partials/featured-courses.jade'")
+        .col-md-6
+            div(ng-include="'/partials/new-courses.jade'")
