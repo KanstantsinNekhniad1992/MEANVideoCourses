@@ -12,7 +12,12 @@ function compile(str, path) {
     return stylus(str).set('filename', path);
 }
 
-mongoose.connect('mongodb://localhost/meanDB');
+//if(process.env.NODE_ENV === 'development') {
+//    mongoose.connect('mongodb://localhost/meanDB');
+//} else {
+//    mongoose.connect('mongodb://kostya:pass@ds045021.mongolab.com:45021/meandb');
+//}
+mongoose.connect('mongodb://kostya:pass@ds045021.mongolab.com:45021/meandb');
 var db = mongoose.connection;
 db.on('errors', console.error.bind(console, 'connection error...'));
 db.once('open', function callback() {
@@ -30,9 +35,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(logger({path: "/log.txt"}));
 
-//app.get('/partials/:partialPath', function(req, res) {
-//   res.render('partials/'+ req.params.partialPath);
-//});
+app.get('/partials/:partialPath', function(req, res) {
+   res.render('partials/'+ req.params.partialPath);
+});
 
 var messageSchema = mongoose.Schema({message: String});
 var Message = mongoose.model('Message', messageSchema);
@@ -48,7 +53,6 @@ app.get('/', function(req, res) {
     });
 });
 
-var port = 3000;
-
+var port = process.env.PORT || 3000;
 app.listen(port);
 console.log('Server running on port '+port);
