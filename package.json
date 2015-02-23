@@ -13,7 +13,8 @@
     "author": "Kanstantsin Nekhniadovich",
     "license": "none",
     "dependencies": {
-        "jade": "1.9.2"
+        "jade": "1.9.2",
+        "express": "4.11.1"
     },
     "start": "NODE_ENV=production"
 }
