@@ -12,12 +12,11 @@ function compile(str, path) {
     return stylus(str).set('filename', path);
 }
 
-//if(process.env.NODE_ENV === 'development') {
-//    mongoose.connect('mongodb://localhost/meanDB');
-//} else {
-//    mongoose.connect('mongodb://kostya:pass@ds045021.mongolab.com:45021/meandb');
-//}
-mongoose.connect('mongodb://kostya:pass@ds045021.mongolab.com:45021/meandb');
+if(process.env.NODE_ENV === 'development') {
+    mongoose.connect('mongodb://localhost/meanDB');
+} else {
+    mongoose.connect('mongodb://kostya:pass@ds045021.mongolab.com:45021/meandb');
+}
 var db = mongoose.connection;
 db.on('errors', console.error.bind(console, 'connection error...'));
 db.once('open', function callback() {
