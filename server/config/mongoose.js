@@ -7,4 +7,18 @@ module.exports = function(config) {
     db.once('open', function callback() {
         console.log('meanDB opened');
     });
+
+    var userSchema = mongoose.Schema ({
+        firstName: String,
+        lastName: String,
+        userName: String
+    });
+
+    var User = mongoose.model('User', userSchema);
+
+    User.find({}).exec(function(err, collection) {
+        if(collection.length == 0) {
+            User.create({firstName: 'Kostya', lastName: 'Nekhniadovich', userName: 'koS'});
+        }
+    })
 };

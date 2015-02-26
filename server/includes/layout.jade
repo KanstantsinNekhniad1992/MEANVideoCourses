@@ -4,8 +4,9 @@ html(lang="en")
         title MEANVideoCourses
         base(href="/")
         link(rel="stylesheet" href="/css/bootstrap.min.css")
-        link(rel="stylesheet" href="/vendor/toastr/toastr.css")
+        link(rel="stylesheet" href="/vendor/angularjs-toaster/toaster.css")
         link(rel="stylesheet" href="/css/site.css")
     body(ng-app="app")
         block main-content
+        toaster-container(toaster-options="{'position-class': 'toast-top-full-width'}")
         include scripts

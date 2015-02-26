@@ -1,5 +1,12 @@
-angular.module('app').controller('mvLoginController', function($scope) {
+angular.module('app').controller('mvLoginController', function($scope, $http, mvNotifier, mvIdentity, mvAuth) {
+    $scope.identity = mvIdentity;
     $scope.signIn = function(username, password) {
-        console.log("i'm not done yet!");
+        mvAuth.authenticateUser(username, password).then(function(success) {
+            if(success) {
+                mvNotifier.notify("You've successfully sing in", "success");
+            } else {
+                mvNotifier.notify("Username/Password combination is not correct", "error");
+            }
+        })
     }
 });
