@@ -4,7 +4,7 @@ var rootPath = path.normalize(__dirname + '../../../');
 module.exports = {
     development: {
         rootPath: rootPath,
-        db: 'mongodb://localhost/meanDB',
+        db: 'mongodb://localhost/meandb',
         port: process.env.PORT || 3000
     },
     production: {

@@ -8,7 +8,7 @@ angular.module('app').controller('mvLoginController', function($scope, $http, mv
                 mvNotifier.notify("Username/Password combination is not correct", "error");
             }
         })
-    }
+    };
 
     $scope.signOut = function() {
         mvAuth.logoutUser().then(function() {
