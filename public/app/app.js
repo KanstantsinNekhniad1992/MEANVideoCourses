@@ -7,4 +7,8 @@ angular.module('app').config(function($routeProvider, $locationProvider) {
             templateUrl: '/partials/main',
             controller: 'mvMainController'
         })
+        .when('/admin/users', {
+            templateUrl: '/partials/users-list',
+            controller: 'mvUserListController'
+        });
 });

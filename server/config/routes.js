@@ -7,7 +7,7 @@ module.exports = function(app) {
         res.render('partials/'+ req.params.partialPath);
     });
 
-    app.get('/api/users', auth.requiresRole('Admin'), function(req, res) {
+    app.get('/api/users', auth.requiresRole('admin'), function(req, res) {
         User.find({}).exec(function(err, collection) {
             res.send(collection);
         })
