@@ -32,3 +32,8 @@ footer p {
     right: 20px;
     width: 300px;
 }
+.container.user-list {
+    min-height: 100px;
+    position: relative;
+    top: 35px;
+}

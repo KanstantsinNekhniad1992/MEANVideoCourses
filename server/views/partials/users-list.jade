@@ -1,4 +1,5 @@
-.container
+.container.user-list
+    p Text
     table.table
-        tr(ng-repeate="user in users")
-            td {{user.firstName +" " + user.lastName}}
+        tr(ng-repeat="user in users")
+            td {{user.firstName + " "+ user.lastName}}

@@ -1,0 +1,484 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'karma',
+1 verbose cli   'mocha',
+1 verbose cli   'karma-mocha',
+1 verbose cli   'karma-chai-plugin' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json MultiVision@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'karma', null ]
+7 verbose cache add name=undefined spec="karma" args=["karma",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'karma',
+8 verbose parsed url   path: 'karma',
+8 verbose parsed url   href: 'karma' }
+9 verbose cache add [ 'mocha', null ]
+10 verbose cache add name=undefined spec="mocha" args=["mocha",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'mocha',
+11 verbose parsed url   path: 'mocha',
+11 verbose parsed url   href: 'mocha' }
+12 verbose cache add [ 'karma-mocha', null ]
+13 verbose cache add name=undefined spec="karma-mocha" args=["karma-mocha",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'karma-mocha',
+14 verbose parsed url   path: 'karma-mocha',
+14 verbose parsed url   href: 'karma-mocha' }
+15 verbose cache add [ 'karma-chai-plugin', null ]
+16 verbose cache add name=undefined spec="karma-chai-plugin" args=["karma-chai-plugin",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'karma-chai-plugin',
+17 verbose parsed url   path: 'karma-chai-plugin',
+17 verbose parsed url   href: 'karma-chai-plugin' }
+18 silly lockFile 512423cb-karma karma
+19 verbose lock karma C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\512423cb-karma.lock
+20 silly lockFile a619da43-mocha mocha
+21 verbose lock mocha C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\a619da43-mocha.lock
+22 silly lockFile 1e7ec470-karma-mocha karma-mocha
+23 verbose lock karma-mocha C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\1e7ec470-karma-mocha.lock
+24 silly lockFile 2af21499-karma-chai-plugin karma-chai-plugin
+25 verbose lock karma-chai-plugin C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\2af21499-karma-chai-plugin.lock
+26 silly lockFile 512423cb-karma karma
+27 silly lockFile 512423cb-karma karma
+28 silly lockFile a619da43-mocha mocha
+29 silly lockFile a619da43-mocha mocha
+30 silly lockFile 1e7ec470-karma-mocha karma-mocha
+31 silly lockFile 1e7ec470-karma-mocha karma-mocha
+32 verbose addNamed [ 'mocha', '' ]
+33 verbose addNamed [ null, '*' ]
+34 silly lockFile b9899f31-mocha mocha@
+35 verbose lock mocha@ C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\b9899f31-mocha.lock
+36 verbose addNamed [ 'karma-mocha', '' ]
+37 verbose addNamed [ null, '*' ]
+38 silly lockFile 935570b3-karma-mocha karma-mocha@
+39 verbose lock karma-mocha@ C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\935570b3-karma-mocha.lock
+40 silly lockFile 2af21499-karma-chai-plugin karma-chai-plugin
+41 silly lockFile 2af21499-karma-chai-plugin karma-chai-plugin
+42 verbose addNamed [ 'karma', '' ]
+43 verbose addNamed [ null, '*' ]
+44 silly lockFile cd7961bb-karma karma@
+45 verbose lock karma@ C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\cd7961bb-karma.lock
+46 verbose addNamed [ 'karma-chai-plugin', '' ]
+47 verbose addNamed [ null, '*' ]
+48 silly lockFile 5d2ff66c-karma-chai-plugin karma-chai-plugin@
+49 verbose lock karma-chai-plugin@ C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\5d2ff66c-karma-chai-plugin.lock
+50 silly addNameRange { name: 'mocha', range: '*', hasData: false }
+51 silly addNameRange { name: 'karma-mocha', range: '*', hasData: false }
+52 silly addNameRange { name: 'karma', range: '*', hasData: false }
+53 silly addNameRange { name: 'karma-chai-plugin', range: '*', hasData: false }
+54 verbose request where is /karma-chai-plugin
+55 verbose request registry https://registry.npmjs.org/
+56 verbose request id 2bba1f28cf61127c
+57 verbose url raw /karma-chai-plugin
+58 verbose url resolving [ 'https://registry.npmjs.org/', './karma-chai-plugin' ]
+59 verbose url resolved https://registry.npmjs.org/karma-chai-plugin
+60 verbose request where is https://registry.npmjs.org/karma-chai-plugin
+61 info trying registry request attempt 1 at 16:22:02
+62 http GET https://registry.npmjs.org/karma-chai-plugin
+63 verbose request where is /karma-mocha
+64 verbose request registry https://registry.npmjs.org/
+65 verbose url raw /karma-mocha
+66 verbose url resolving [ 'https://registry.npmjs.org/', './karma-mocha' ]
+67 verbose url resolved https://registry.npmjs.org/karma-mocha
+68 verbose request where is https://registry.npmjs.org/karma-mocha
+69 info trying registry request attempt 1 at 16:22:02
+70 verbose etag "1MV6F5PQQP90QT2WBNEHKEA2M"
+71 http GET https://registry.npmjs.org/karma-mocha
+72 verbose request where is /mocha
+73 verbose request registry https://registry.npmjs.org/
+74 verbose url raw /mocha
+75 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+76 verbose url resolved https://registry.npmjs.org/mocha
+77 verbose request where is https://registry.npmjs.org/mocha
+78 info trying registry request attempt 1 at 16:22:02
+79 verbose etag "AKAXW8FW2N5ASQPKZOQAZP8GB"
+80 http GET https://registry.npmjs.org/mocha
+81 verbose request where is /karma
+82 verbose request registry https://registry.npmjs.org/
+83 verbose url raw /karma
+84 verbose url resolving [ 'https://registry.npmjs.org/', './karma' ]
+85 verbose url resolved https://registry.npmjs.org/karma
+86 verbose request where is https://registry.npmjs.org/karma
+87 info trying registry request attempt 1 at 16:22:02
+88 verbose etag "EGC4AQNGNZNAOYWDVHBHCX6R"
+89 http GET https://registry.npmjs.org/karma
+90 http 200 https://registry.npmjs.org/karma-mocha
+91 silly registry.get cb [ 200,
+91 silly registry.get   { date: 'Wed, 11 Mar 2015 13:22:03 GMT',
+91 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+91 silly registry.get     etag: '"BFLCW2IUSKLXE7ITIP9KDHP7D"',
+91 silly registry.get     'content-type': 'application/json',
+91 silly registry.get     'cache-control': 'max-age=60',
+91 silly registry.get     'content-length': '24687',
+91 silly registry.get     'accept-ranges': 'bytes',
+91 silly registry.get     via: '1.1 varnish',
+91 silly registry.get     age: '26',
+91 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+91 silly registry.get     'x-cache': 'HIT',
+91 silly registry.get     'x-cache-hits': '1',
+91 silly registry.get     'x-timer': 'S1426080123.086878,VS0,VE0',
+91 silly registry.get     vary: 'Accept',
+91 silly registry.get     'keep-alive': 'timeout=10, max=50',
+91 silly registry.get     connection: 'Keep-Alive' } ]
+92 silly addNameRange number 2 { name: 'karma-mocha', range: '*', hasData: true }
+93 silly addNameRange versions [ 'karma-mocha',
+93 silly addNameRange   [ '0.0.1',
+93 silly addNameRange     '0.0.2',
+93 silly addNameRange     '0.0.3',
+93 silly addNameRange     '0.0.4',
+93 silly addNameRange     '0.1.0',
+93 silly addNameRange     '0.1.1',
+93 silly addNameRange     '0.1.3',
+93 silly addNameRange     '0.1.4',
+93 silly addNameRange     '0.1.6',
+93 silly addNameRange     '0.1.7',
+93 silly addNameRange     '0.1.8',
+93 silly addNameRange     '0.1.9',
+93 silly addNameRange     '0.1.10' ] ]
+94 verbose addNamed [ 'karma-mocha', '0.1.10' ]
+95 verbose addNamed [ '0.1.10', '0.1.10' ]
+96 silly lockFile 60f7092d-karma-mocha-0-1-10 karma-mocha@0.1.10
+97 verbose lock karma-mocha@0.1.10 C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\60f7092d-karma-mocha-0-1-10.lock
+98 silly lockFile 60f7092d-karma-mocha-0-1-10 karma-mocha@0.1.10
+99 silly lockFile 60f7092d-karma-mocha-0-1-10 karma-mocha@0.1.10
+100 silly lockFile 935570b3-karma-mocha karma-mocha@
+101 silly lockFile 935570b3-karma-mocha karma-mocha@
+102 http 200 https://registry.npmjs.org/mocha
+103 silly registry.get cb [ 200,
+103 silly registry.get   { date: 'Wed, 11 Mar 2015 13:22:03 GMT',
+103 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+103 silly registry.get     etag: '"CRBR94N5KY0SCWM3ZQKJ4W4UD"',
+103 silly registry.get     'content-type': 'application/json',
+103 silly registry.get     'cache-control': 'max-age=60',
+103 silly registry.get     'content-length': '115673',
+103 silly registry.get     'accept-ranges': 'bytes',
+103 silly registry.get     via: '1.1 varnish',
+103 silly registry.get     age: '17',
+103 silly registry.get     'x-served-by': 'cache-fra1245-FRA',
+103 silly registry.get     'x-cache': 'HIT',
+103 silly registry.get     'x-cache-hits': '1',
+103 silly registry.get     'x-timer': 'S1426080123.076032,VS0,VE0',
+103 silly registry.get     vary: 'Accept',
+103 silly registry.get     'keep-alive': 'timeout=10, max=50',
+103 silly registry.get     connection: 'Keep-Alive' } ]
+104 silly addNameRange number 2 { name: 'mocha', range: '*', hasData: true }
+105 silly addNameRange versions [ 'mocha',
+105 silly addNameRange   [ '0.0.1-alpha1',
+105 silly addNameRange     '0.0.1-alpha2',
+105 silly addNameRange     '0.0.1-alpha3',
+105 silly addNameRange     '0.0.1-alpha4',
+105 silly addNameRange     '0.0.1-alpha5',
+105 silly addNameRange     '0.0.1-alpha6',
+105 silly addNameRange     '0.0.1',
+105 silly addNameRange     '0.0.2',
+105 silly addNameRange     '0.0.3',
+105 silly addNameRange     '0.0.4',
+105 silly addNameRange     '0.0.5',
+105 silly addNameRange     '0.0.6',
+105 silly addNameRange     '0.0.7',
+105 silly addNameRange     '0.0.8',
+105 silly addNameRange     '0.1.0',
+105 silly addNameRange     '0.2.0',
+105 silly addNameRange     '0.3.0',
+105 silly addNameRange     '0.3.1',
+105 silly addNameRange     '0.3.2',
+105 silly addNameRange     '0.3.3',
+105 silly addNameRange     '0.3.4',
+105 silly addNameRange     '0.3.6',
+105 silly addNameRange     '0.4.0',
+105 silly addNameRange     '0.5.0',
+105 silly addNameRange     '0.6.0',
+105 silly addNameRange     '0.7.0',
+105 silly addNameRange     '0.7.1',
+105 silly addNameRange     '0.8.0',
+105 silly addNameRange     '0.8.1',
+105 silly addNameRange     '0.9.0',
+105 silly addNameRange     '0.10.0',
+105 silly addNameRange     '0.10.1',
+105 silly addNameRange     '0.10.2',
+105 silly addNameRange     '0.11.0',
+105 silly addNameRange     '0.12.0',
+105 silly addNameRange     '0.12.1',
+105 silly addNameRange     '0.13.0',
+105 silly addNameRange     '0.14.0',
+105 silly addNameRange     '0.14.1',
+105 silly addNameRange     '1.0.0',
+105 silly addNameRange     '1.0.1',
+105 silly addNameRange     '1.0.2',
+105 silly addNameRange     '1.0.3',
+105 silly addNameRange     '1.1.0',
+105 silly addNameRange     '1.2.0',
+105 silly addNameRange     '1.2.1',
+105 silly addNameRange     '1.2.2',
+105 silly addNameRange     '1.3.0',
+105 silly addNameRange     '1.3.1',
+105 silly addNameRange     '1.3.2',
+105 silly addNameRange     '1.4.0',
+105 silly addNameRange     '1.4.1',
+105 silly addNameRange     '1.4.2',
+105 silly addNameRange     '1.4.3',
+105 silly addNameRange     '1.5.0',
+105 silly addNameRange     '1.6.0',
+105 silly addNameRange     '1.7.0',
+105 silly addNameRange     '1.7.1',
+105 silly addNameRange     '1.7.2',
+105 silly addNameRange     '1.7.3',
+105 silly addNameRange     '1.7.4',
+105 silly addNameRange     '1.8.0',
+105 silly addNameRange     '1.8.1',
+105 silly addNameRange     '1.8.2',
+105 silly addNameRange     '1.9.0',
+105 silly addNameRange     '1.10.0',
+105 silly addNameRange     '1.11.0',
+105 silly addNameRange     '1.12.0',
+105 silly addNameRange     '1.12.1',
+105 silly addNameRange     '1.13.0',
+105 silly addNameRange     '1.14.0',
+105 silly addNameRange     '1.15.0',
+105 silly addNameRange     '1.15.1',
+105 silly addNameRange     '1.16.0',
+105 silly addNameRange     '1.16.1',
+105 silly addNameRange     '1.16.2',
+105 silly addNameRange     '1.17.0',
+105 silly addNameRange     '1.17.1',
+105 silly addNameRange     '1.18.0',
+105 silly addNameRange     '1.18.1',
+105 silly addNameRange     '1.18.2',
+105 silly addNameRange     '1.19.0',
+105 silly addNameRange     '1.20.0',
+105 silly addNameRange     '1.20.1',
+105 silly addNameRange     '1.21.0',
+105 silly addNameRange     '1.21.1',
+105 silly addNameRange     '1.21.2',
+105 silly addNameRange     '1.21.3',
+105 silly addNameRange     '1.21.4',
+105 silly addNameRange     '1.21.5',
+105 silly addNameRange     '2.0.0',
+105 silly addNameRange     '2.0.1',
+105 silly addNameRange     '2.1.0',
+105 silly addNameRange     '2.2.0',
+105 silly addNameRange     '2.2.1' ] ]
+106 verbose addNamed [ 'mocha', '2.2.1' ]
+107 verbose addNamed [ '2.2.1', '2.2.1' ]
+108 silly lockFile cd740b7b-mocha-2-2-1 mocha@2.2.1
+109 verbose lock mocha@2.2.1 C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\cd740b7b-mocha-2-2-1.lock
+110 silly lockFile 057f105d--npmjs-org-mocha-mocha-2-2-1-tgz https://registry.npmjs.org/mocha/-/mocha-2.2.1.tgz
+111 verbose lock https://registry.npmjs.org/mocha/-/mocha-2.2.1.tgz C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\057f105d--npmjs-org-mocha-mocha-2-2-1-tgz.lock
+112 verbose addRemoteTarball [ 'https://registry.npmjs.org/mocha/-/mocha-2.2.1.tgz',
+112 verbose addRemoteTarball   '04a2f8aeb149fe50177e00a7ef5d08c639e9126b' ]
+113 info retry fetch attempt 1 at 16:22:03
+114 verbose fetch to= C:\Users\Kanstantsin_Nekhniad\AppData\Local\Temp\npm-11128-6iFhHXn_\registry.npmjs.org\mocha\-\mocha-2.2.1.tgz
+115 http GET https://registry.npmjs.org/mocha/-/mocha-2.2.1.tgz
+116 http 200 https://registry.npmjs.org/mocha/-/mocha-2.2.1.tgz
+117 http 404 https://registry.npmjs.org/karma-chai-plugin
+118 verbose headers { date: 'Wed, 11 Mar 2015 13:22:03 GMT',
+118 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+118 verbose headers   'content-type': 'application/json',
+118 verbose headers   'cache-control': 'max-age=0',
+118 verbose headers   'content-length': '52',
+118 verbose headers   'accept-ranges': 'bytes',
+118 verbose headers   via: '1.1 varnish',
+118 verbose headers   age: '0',
+118 verbose headers   'x-served-by': 'cache-fra1225-FRA',
+118 verbose headers   'x-cache': 'MISS',
+118 verbose headers   'x-cache-hits': '0',
+118 verbose headers   'x-timer': 'S1426080123.079030,VS0,VE707',
+118 verbose headers   'keep-alive': 'timeout=10, max=50',
+118 verbose headers   connection: 'Keep-Alive' }
+119 silly registry.get cb [ 404,
+119 silly registry.get   { date: 'Wed, 11 Mar 2015 13:22:03 GMT',
+119 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+119 silly registry.get     'content-type': 'application/json',
+119 silly registry.get     'cache-control': 'max-age=0',
+119 silly registry.get     'content-length': '52',
+119 silly registry.get     'accept-ranges': 'bytes',
+119 silly registry.get     via: '1.1 varnish',
+119 silly registry.get     age: '0',
+119 silly registry.get     'x-served-by': 'cache-fra1225-FRA',
+119 silly registry.get     'x-cache': 'MISS',
+119 silly registry.get     'x-cache-hits': '0',
+119 silly registry.get     'x-timer': 'S1426080123.079030,VS0,VE707',
+119 silly registry.get     'keep-alive': 'timeout=10, max=50',
+119 silly registry.get     connection: 'Keep-Alive' } ]
+120 silly lockFile 5d2ff66c-karma-chai-plugin karma-chai-plugin@
+121 silly lockFile 5d2ff66c-karma-chai-plugin karma-chai-plugin@
+122 silly lockFile 057f105d--npmjs-org-mocha-mocha-2-2-1-tgz https://registry.npmjs.org/mocha/-/mocha-2.2.1.tgz
+123 silly lockFile 057f105d--npmjs-org-mocha-mocha-2-2-1-tgz https://registry.npmjs.org/mocha/-/mocha-2.2.1.tgz
+124 silly lockFile cd740b7b-mocha-2-2-1 mocha@2.2.1
+125 silly lockFile cd740b7b-mocha-2-2-1 mocha@2.2.1
+126 silly lockFile b9899f31-mocha mocha@
+127 silly lockFile b9899f31-mocha mocha@
+128 http 200 https://registry.npmjs.org/karma
+129 silly registry.get cb [ 200,
+129 silly registry.get   { date: 'Wed, 11 Mar 2015 13:22:03 GMT',
+129 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+129 silly registry.get     etag: '"E76PICMHZ3AI1PFGEHSBY355R"',
+129 silly registry.get     'content-type': 'application/json',
+129 silly registry.get     'cache-control': 'max-age=60',
+129 silly registry.get     'content-length': '688589',
+129 silly registry.get     'accept-ranges': 'bytes',
+129 silly registry.get     via: '1.1 varnish',
+129 silly registry.get     age: '0',
+129 silly registry.get     'x-served-by': 'cache-fra1241-FRA',
+129 silly registry.get     'x-cache': 'HIT',
+129 silly registry.get     'x-cache-hits': '1',
+129 silly registry.get     'x-timer': 'S1426080123.111511,VS0,VE3',
+129 silly registry.get     vary: 'Accept',
+129 silly registry.get     'keep-alive': 'timeout=10, max=50',
+129 silly registry.get     connection: 'Keep-Alive' } ]
+130 silly addNameRange number 2 { name: 'karma', range: '*', hasData: true }
+131 silly addNameRange versions [ 'karma',
+131 silly addNameRange   [ '0.8.0',
+131 silly addNameRange     '0.9.0-dart',
+131 silly addNameRange     '0.8.1',
+131 silly addNameRange     '0.8.2',
+131 silly addNameRange     '0.8.3',
+131 silly addNameRange     '0.9.0',
+131 silly addNameRange     '0.8.4',
+131 silly addNameRange     '0.9.1',
+131 silly addNameRange     '0.8.5',
+131 silly addNameRange     '0.9.2',
+131 silly addNameRange     '0.9.2-dart',
+131 silly addNameRange     '0.9.3',
+131 silly addNameRange     '0.8.6',
+131 silly addNameRange     '0.9.4',
+131 silly addNameRange     '0.8.7',
+131 silly addNameRange     '0.9.5',
+131 silly addNameRange     '0.9.6',
+131 silly addNameRange     '0.8.8',
+131 silly addNameRange     '0.9.7',
+131 silly addNameRange     '0.9.8',
+131 silly addNameRange     '0.10.0',
+131 silly addNameRange     '0.10.1',
+131 silly addNameRange     '0.10.2',
+131 silly addNameRange     '0.11.0',
+131 silly addNameRange     '0.11.1',
+131 silly addNameRange     '0.10.3',
+131 silly addNameRange     '0.10.4',
+131 silly addNameRange     '0.11.2',
+131 silly addNameRange     '0.11.3',
+131 silly addNameRange     '0.10.5',
+131 silly addNameRange     '0.11.4',
+131 silly addNameRange     '0.11.5',
+131 silly addNameRange     '0.10.6',
+131 silly addNameRange     '0.11.6',
+131 silly addNameRange     '0.10.7',
+131 silly addNameRange     '0.11.7',
+131 silly addNameRange     '0.11.8',
+131 silly addNameRange     '0.11.9',
+131 silly addNameRange     '0.10.8',
+131 silly addNameRange     '0.11.10',
+131 silly addNameRange     '0.11.11',
+131 silly addNameRange     '0.11.12',
+131 silly addNameRange     '0.11.11-dev',
+131 silly addNameRange     '0.10.9',
+131 silly addNameRange     '0.11.12-dev',
+131 silly addNameRange     '0.11.12-dev2',
+131 silly addNameRange     '0.11.13',
+131 silly addNameRange     '0.11.14',
+131 silly addNameRange     '0.12.0',
+131 silly addNameRange     '0.10.10',
+131 silly addNameRange     '0.12.1',
+131 silly addNameRange     '0.12.2',
+131 silly addNameRange     '0.12.3',
+131 silly addNameRange     '0.12.4',
+131 silly addNameRange     '0.12.5',
+131 silly addNameRange     '0.12.6',
+131 silly addNameRange     '0.12.6-beta-43e6e28',
+131 silly addNameRange     '0.12.7',
+131 silly addNameRange     '0.12.8',
+131 silly addNameRange     '0.12.9',
+131 silly addNameRange     '0.12.10',
+131 silly addNameRange     '0.12.11',
+131 silly addNameRange     '0.12.12',
+131 silly addNameRange     '0.12.11-beta-3029418',
+131 silly addNameRange     '0.12.13',
+131 silly addNameRange     '0.12.14',
+131 silly addNameRange     '0.12.15',
+131 silly addNameRange     '0.12.16',
+131 silly addNameRange     '0.12.16-beta-905422d',
+131 silly addNameRange     '0.12.17',
+131 silly addNameRange     '0.12.18',
+131 silly addNameRange     '0.12.19',
+131 silly addNameRange     '0.12.20',
+131 silly addNameRange     '0.12.21',
+131 silly addNameRange     '0.12.22',
+131 silly addNameRange     '0.12.23',
+131 silly addNameRange     '0.12.24',
+131 silly addNameRange     '0.12.24-beta-6cf7955',
+131 silly addNameRange     '0.12.25',
+131 silly addNameRange     '0.12.25-beta-37a7958',
+131 silly addNameRange     '0.12.25-beta-ad5bc24',
+131 silly addNameRange     '0.12.26',
+131 silly addNameRange     '0.12.27',
+131 silly addNameRange     '0.12.28',
+131 silly addNameRange     '0.12.28-beta-b9be580',
+131 silly addNameRange     '0.12.29',
+131 silly addNameRange     '0.12.30',
+131 silly addNameRange     '0.12.31',
+131 silly addNameRange     '0.12.28-beta-f65c864',
+131 silly addNameRange     '0.12.24-dev-test',
+131 silly addNameRange     '0.12.24-dev-socketio10',
+131 silly addNameRange     '0.12.24-dev-socketio10-2',
+131 silly addNameRange     '0.12.32-beta.0',
+131 silly addNameRange     '0.12.32' ] ]
+132 verbose addNamed [ 'karma', '0.12.31' ]
+133 verbose addNamed [ '0.12.31', '0.12.31' ]
+134 silly lockFile feea9de1-karma-0-12-31 karma@0.12.31
+135 verbose lock karma@0.12.31 C:\Users\Kanstantsin_Nekhniad\AppData\Roaming\npm-cache\feea9de1-karma-0-12-31.lock
+136 silly lockFile feea9de1-karma-0-12-31 karma@0.12.31
+137 silly lockFile feea9de1-karma-0-12-31 karma@0.12.31
+138 silly lockFile cd7961bb-karma karma@
+139 silly lockFile cd7961bb-karma karma@
+140 error 404 404 Not Found: karma-chai-plugin
+140 error 404
+140 error 404 'karma-chai-plugin' is not in the npm registry.
+140 error 404 You should bug the author to publish it
+140 error 404 It was specified as a dependency of 'MultiVision'
+140 error 404
+140 error 404 Note that you can also install from a
+140 error 404 tarball, folder, or http url, or git url.
+141 error System Windows_NT 6.1.7601
+142 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "karma" "mocha" "karma-mocha" "karma-chai-plugin"
+143 error cwd D:\GIT\MEANVideoCourses
+144 error node -v v0.10.35
+145 error npm -v 1.4.28
+146 error code E404
+147 verbose exit [ 1, true ]
