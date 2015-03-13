@@ -1,4 +1,5 @@
-var mongoose = require('mongoose');
+var mongoose = require('mongoose'),
+    encryption = require('../utilities/encryption');
 
 var userSchema = mongoose.Schema ({
     firstName: { type: String, required: '{PATH} is required'},
@@ -12,6 +13,9 @@ var userSchema = mongoose.Schema ({
 userSchema.methods = {
     authenticate: function(passwordToMatch) {
         return encryption.hashPwd(this.salt, passwordToMatch) === this.hashed_pwd;
+    },
+    hasRole: function(role) {
+        return this.roles.indexOf(role) > -1;
     }
 };
 
