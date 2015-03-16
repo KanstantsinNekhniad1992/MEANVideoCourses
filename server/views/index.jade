@@ -4,12 +4,14 @@ block main-content
     .navbar.navbar-inverse.navbar-fixed-top
         .container
             .navbar-header
-                a.navbar-brand(href="") MEANCourse
+                a.navbar-brand(href="/") MEANCourse
                     h6 -Extream Tech Training
             .navbar-collapse.collapse
-                ul.nav-navbar-nav
+                ul.nav-navbar-nav.clearfix
                     li
                         a(href="") Home
+                    li
+                        a(href="/courses") Courses
                 div(ng-include="'partials/navbar-login'")
     section.content
         div(ng-view)

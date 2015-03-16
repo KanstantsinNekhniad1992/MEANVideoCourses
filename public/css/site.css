@@ -8,6 +8,11 @@ body {
 .navbar-header a.navbar-brand h6 {
   color: #ccc;
 }
+.nav-navbar-nav li {
+    float: left;
+    margin-left: 10px;
+    list-style-type: none;
+}
 footer {
   padding-left: 15px;
   padding-right: 15px;
@@ -36,4 +41,8 @@ footer p {
     min-height: 100px;
     position: relative;
     top: 35px;
+}
+
+.content {
+    margin-top: 45px;
 }
